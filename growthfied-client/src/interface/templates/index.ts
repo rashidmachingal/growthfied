@@ -1,0 +1,52 @@
+// export templates
+
+// home templates
+export { default as HomeTemplate } from "@/interface/templates/(landing)"
+
+// auth templates
+export { default as SignupTemplate } from "@/interface/templates/(auth)/signup"
+export { default as LoginTemplate } from "@/interface/templates/(auth)/login"
+export { default as ResetPasswordTemplate } from "@/interface/templates/(auth)/resetpassword"
+
+// dashboard templates 
+export { default as DashboardTemplate } from "@/interface/templates/(dashboard)/dashboard"
+export { default as ProductsTemplate } from "@/interface/templates/(dashboard)/products"
+export { default as CreateProductTemplate } from "@/interface/templates/(dashboard)/products/create"
+export { default as EditProductTemplate } from "@/interface/templates/(dashboard)/products/edit"
+export { default as OrdersTemplate } from "@/interface/templates/(dashboard)/orders/"
+export { default as OrderDetailsTemplate } from "@/interface/templates/(dashboard)/orders/details"
+export { default as CoupensTemplate } from "@/interface/templates/(dashboard)/coupens"
+export { default as CreateCoupensTemplate } from "@/interface/templates/(dashboard)/coupens/create"
+export { default as EditCoupensTemplate } from "@/interface/templates/(dashboard)/coupens/edit"
+export { default as PaymentsTemplate } from "@/interface/templates/(dashboard)/payments"
+export { default as AddPaymentTemplate } from "@/interface/templates/(dashboard)/payments/add"
+export { default as EditPaymentTemplate } from "@/interface/templates/(dashboard)/payments/edit"
+export { default as SubscriptionTemplate } from "@/interface/templates/(dashboard)/subscription"
+export { default as CategoriesTemplate } from "@/interface/templates/(dashboard)/categories"
+export { default as SettingsTemplate } from "@/interface/templates/(dashboard)/settings"
+export { default as StorenameTemplate } from "@/interface/templates/(dashboard)/settings/storename"
+export { default as StoreInfoTemplate } from "@/interface/templates/(dashboard)/settings/store-info"
+export { default as DeliveryChargeTemplate } from "@/interface/templates/(dashboard)/settings/delivery-charge"
+export { default as SettingsEmailTemplate } from "@/interface/templates/(dashboard)/settings/email"
+export { default as ChangePasswordTemplate } from "@/interface/templates/(dashboard)/settings/password"
+export { default as StoreSeoTemplate } from "@/interface/templates/(dashboard)/settings/seo"
+export { default as PaymentMethodTemplate } from "@/interface/templates/(dashboard)/settings/payment-method"
+export { default as PageTemplate } from "@/interface/templates/(dashboard)/page"
+export { default as CreatePageTemplate } from "@/interface/templates/(dashboard)/page/create"
+export { default as EditPageTemplate } from "@/interface/templates/(dashboard)/page/edit"
+export { default as AnalyticsSiteTemplate } from "@/interface/templates/(dashboard)/analytics/site"
+export { default as AnalyticsOrderTemplate } from "@/interface/templates/(dashboard)/analytics/order"
+export { default as UpdateFooterTemplate } from "@/interface/templates/(dashboard)/settings/footer"
+
+// store templates
+export { default as StoreHomeTemplate } from "@/interface/templates/(store)/home"
+export { default as StoreProductTemplate } from "@/interface/templates/(store)/product"
+export { default as CartTemplate } from "@/interface/templates/(store)/cart"
+export { default as CheckoutTemplate } from "@/interface/templates/(store)/checkout"
+export { default as StoreCategoriesTemplate } from "@/interface/templates/(store)/categories"
+export { default as StoreCategoryViewTemplate } from "@/interface/templates/(store)/categories/cview"
+export { default as EnterTrackTemplate } from "@/interface/templates/(store)/order/track"
+export { default as OrderSuccessTemplate } from "@/interface/templates/(store)/order/sucess"
+export { default as OrderFailedTemplate } from "@/interface/templates/(store)/order/failed"
+export { default as SearchTemplate } from "@/interface/templates/(store)/search"
+export { default as StorePageTemplate } from "@/interface/templates/(store)/page"
